@@ -1,0 +1,39 @@
+/* 
+* @Author: Marte
+* @Date:   2017-03-10 16:41:09
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-03-11 23:55:38
+*/
+
+/*第一页的动画效果*/
+.animation1{animation:jianyin 1s 3.5s both;-webkit-animation:jianyin 1s 3.5s both;}
+.animation2{animation:jianyin 1s 3s both;-webkit-animation:jianyin 1s 3s both;}
+.animation3{animation:jianyin 1s 3.8s both;-webkit-animation:jianyin 1s 3.8s both;}
+.animation4{animation:jianyin 1s 4.2s both;-webkit-animation:jianyin 1s 4.2s both;}
+.animation5{animation:suofang 2s 1s both,shanshuo 2s 2s infinite;-webkit-animation:suofang 2s 1s both,shanshuo 2s 2s infinite;}
+.animation6{animation:jianyin 4s 4.5s both;-webkit-animation:jianyin 4s 4.5s both;z-index:19;}
+.animation7{animation:suofang 2s 2s both,jianyin 2s 2s;-webkit-animation:suofang 2s 2s both,jianyin 2s 2s;}
+.animation8{animation:jianyin 1s 4s both;-webkit-animation:jianyin 1s 4s both;}
+
+/*第四页动画效果*/
+.page4Ico2{animation:badierqi 10s both;}
+.page4Ico5{animation:xleftFei 1.5s 0.5s both;-webkit-animation:xleftFei 1.5s 0.5s both;}
+.page4Ico6{animation:xrightFei 2s 1s both;-webkit-animation:xrightFei 2s 1s both;}
+.page4Ico7{animation:xleftFei 1.5s 2s both;-webkit-animation:xleftFei 1.5s 2s both;}
+.page4Ico8{animation:xrightFei 1.5s 3s both;-webkit-animation:xrightFei 1.5s 3s both;}
+.page4IcoLine1{animation:suofang 3s both;-webkit-animation:suofang 3s both;}
+.page4IcoLine2{animation:suofang 1.5s 1.5s both;-webkit-animation:suofang 1.5s 1.5s both;}
+.page4IcoLine3{animation:suofang 1.5s 2.5s both;-webkit-animation:suofang 1.5s 3s both;}
+.page4Ico1{animation:jianyin 4s 4s both;-webkit-animation:jianyin 4s 4s both;}
+.page4msk{animation:shangyi 3s 1s both;-webkit-animation:shangyi 3s 1s both;}
+/*.page4Ico3{animation:}*/
+
+/*第五页的动画效果*/
+
+/*第七页的动画效果*/
+.page7Ico3{animation:xuanzhuan 4s linear both;-webkit-animation:xuanzhuan 4s linear both;}
+.page7Ico5{animation:xuanzhuan 3s 4s linear infinite both;-webkit-animation:xuanzhuan 3s 4s linear infinite both;}
+.page7Ico4{animation:suofang 5s 4s linear both;-webkit-animation:suofang 5s 4s linear both;}
+/*最后一页页的动画效果*/
+.endIco1{animation:jianyin 1s 0.5s both;-webkit-animation:jianyin 1s 0.5s both;}
+.endIco2{animation:jianyin 1s 1.5s both;-webkit-animation:jianyin 1s 1.5s both;}

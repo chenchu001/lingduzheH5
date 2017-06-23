@@ -1,0 +1,249 @@
+/* 
+* @Author: Marte
+* @Date:   2017-03-10 15:15:30
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-03-11 21:24:56
+*/
+
+/*loading页面动画*/
+@-webkit-keyframes increase {
+    0% {
+        width:1%;
+    }
+    100% {
+        width:100%;
+    }
+}
+
+/*第一页动画*/
+@keyframes jianyin{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+@-webkit-keyframes jianyin{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+@keyframes xiafei{
+    0%{
+        transform:translateY(-1000px);
+    }
+    100%{
+        transform:translateY(none);
+    }
+}
+@-webkit-keyframes xiafei{
+    0%{
+        -webkit-transform:translateY(-1000px);
+    }
+    100%{
+        -webkit-transform:translateY(none);
+    }
+}
+@keyframes suofang{
+    0%{
+        transform:translateY(-1000px);
+        transform:translateX(-1000px);
+        transform:scale(0, 0);
+    }
+    100%{
+        transform:translateY(none);
+        transform:translateX(none);
+        transform:scale(1,1);
+    }
+}
+@-webkit-keyframes suofang{
+    0%{
+        -webkit-transform:translateY(-1000px);
+        -webkit-transform:translateX(-1000px);
+        -webkit-transform:scale(0, 0);
+    }
+    100%{
+        -webkit-transform:translateY(none);
+        -webkit-transform:translateX(none);
+        -webkit-transform:scale(1,1);
+    }
+}
+@keyframes shanshuo{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+@-webkit-keyframes shanshuo{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+/*第四页效果*/
+@keyframes badierqi{
+}
+
+/*第五页效果*/
+
+
+/*第八页效果*/
+@keyframes topFei{
+    from{
+        transform:translateY(1000px);
+    }
+    to{
+        transform:translateY(none);
+    }
+}
+@-webkit-keyframes topFei{
+    from{
+        -webkit-transform:translateY(1000px);
+    }
+    to{
+        -webkit-transform:translateY(none);
+    }
+}
+@keyframes bottomFei{
+    from{
+        transform:translateY(-1000px);
+    }
+    to{
+        transform:translateY(none);
+    }
+}
+@-webkit-keyframes bottomFei{
+    from{
+        -webkit-transform:translateY(-1000px);
+    }
+    to{
+        -webkit-transform:translateY(none);
+    }
+}
+@keyframes suofang1{
+    0%{
+        transform:scale(0.95);
+    }
+    50%{
+        transform:scale(1);
+    }
+    100%{
+        transform:scale(0.95);
+    }
+}
+@-webkit-keyframes suofang1{
+    0%{
+        -webkit-transform:scale(0.95);
+    }
+    50%{
+        -webkit-transform:scale(1);
+    }
+    100%{
+        -webkit-transform:scale(0.95);
+    }
+}
+@keyframes xleftFei{
+    0%{
+        transform:translateX(-100rem);
+    }
+    100%{
+        transform:translateX(none);
+    }
+}
+@-webkit-keyframes xleftFei{
+    0%{
+        -webkit-transform:translateX(-100rem);
+    }
+    100%{
+        -webkit-transform:translateX(none);
+    }
+}
+@keyframes xrightFei{
+    0%{
+        transform:translateX(100rem);
+    }
+    100%{
+        transform:translateX(none);
+    }
+}
+@-webkit-keyframes xrightFei{
+    0%{
+        -webkit-transform:translateX(100rem);
+    }
+    100%{
+        -webkit-transform:translateX(none);
+    }
+}
+@keyframes shangyi{
+    0%{
+        transform:translateY(100rem);
+    }
+    100%{
+        transform:translateY(none);
+    }
+}
+@-webkit-keyframes shangyi{
+    0%{
+        -webkit-transform:translateY(100rem);
+    }
+    100%{
+        -webkit-transform:translateY(none);
+    }
+}
+/*音乐页面样式*/
+@keyframes music{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+@-webkit-keyframes music{
+    0%{
+        -webkit-transform:rotate(0deg);
+    }
+    100%{
+        -webkit-transform:rotate(360deg);
+    }
+}
+@keyframes xuanzhuan{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+@-webkit-keyframes xuanzhuan{
+    0%{
+        -webkit-transform:rotate(0deg);
+    }
+    100%{
+        -webkit-transform:rotate(3600deg);
+    }
+}
+@keyframes suofang{
+    0%{
+        transform:scale(0,0);
+    }
+    100%{
+        transform:scale(1.2,1.2);
+    }
+}
+@-webkit-keyframes suofang{
+    0%{
+        -webkit-transform:scale(0,0);
+    }
+    100%{
+        -webkit-transform:scale(1.2,1.2);
+    }
+}
